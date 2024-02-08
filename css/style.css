@@ -384,8 +384,65 @@ template {
 
 @font-face {
   font-family: "poppins";
-  src: url("font/Poppins-Medium.ttf");
+  src: url("../../fonts/Poppins-Regular.ttf");
+  font-weight: 400;
 }
+@font-face {
+  font-family: "poppins";
+  src: url("../../fonts/Poppins-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../../fonts/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../../fonts/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../../fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
+}
+.typography-font-bold {
+  font-weight: 700;
+}
+
+.typography-font-medium {
+  font-weight: 500;
+}
+
+.typography-font-light {
+  font-weight: 300;
+}
+
+.typography-font-semibold {
+  font-weight: 600;
+}
+
+.typography-color-dark {
+  color: #212738;
+}
+
+.typography-color-light {
+  color: #edf2ef;
+}
+
+.typography-color-sky {
+  color: #57c4e5;
+}
+
+.typography-color-danger {
+  color: #f97068;
+}
+
+.typography-color-success {
+  color: #d1d646;
+}
+
 body {
   background-color: #edf2ef;
   font-family: "poppins";
