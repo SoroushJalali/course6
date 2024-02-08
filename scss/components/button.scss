@@ -1,0 +1,76 @@
+.btn{
+    background-color: $dark;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 2.5rem;
+    color: $light;
+    border-radius: 0.5rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover
+    {
+        background-color: rgba($dark, $alpha: 0.9);
+    }
+    &-success
+    {
+        background-color: $success;
+    }
+}
+.btn-light{
+    background-color: $light;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 2.5rem;
+    color: $dark;
+    border-radius: 0.5rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover
+    {
+        background-color: rgba($dark, $alpha: 0.9);
+        color: $light;
+    }
+}
+.btn-sky{
+    background-color: $sky;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 2.5rem;
+    color: $dark;
+    border-radius: 0.5rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover
+    {
+        background-color: rgba($dark, $alpha: 0.9);
+        color: $light;
+    }
+}
+.btn-danger{
+    background-color: $danger;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 2.5rem;
+    color: $dark;
+    border-radius: 0.5rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover
+    {
+        background-color: rgba($dark, $alpha: 0.9);
+        color: $light;
+
+    }
+}
